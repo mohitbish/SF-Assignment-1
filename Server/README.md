@@ -8,4 +8,7 @@ creating server
 Creating angular project
   ng new A1
   npm install bootstrap --save
+
+Installing Cors
+  npm install cors
   
