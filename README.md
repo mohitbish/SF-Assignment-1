@@ -4,3 +4,8 @@ creating server
   npm init;
   npm install express --save;
   server running on port:5001;
+
+Creating angular project
+  ng new A1
+  npm install bootstrap --save
+  
