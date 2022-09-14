@@ -19,9 +19,9 @@ app.use(cors());
 //Enable CORS for all HTTP methods
 
 app.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Methods", "GET, PUT, POST, post, DELETE, OPTIONS");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    res.header("Access-Control-Allow-Origin: http://localhost:5502", "*");
+    res.header("Access-Control-Allow-Methods: http://localhost:5502", "GET, PUT, POST, post, DELETE, OPTIONS");
+    res.header("Access-Control-Allow-Headers:  http://localhost:5502", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });
 
