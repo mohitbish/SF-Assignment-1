@@ -10,5 +10,5 @@ Creating angular project
   npm install bootstrap --save
 
 Installing Cors
-  npm install cors
+  npm install cors 
   
