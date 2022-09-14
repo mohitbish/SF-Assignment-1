@@ -11,4 +11,9 @@ Creating angular project
 
 Installing Cors
   npm install cors 
+
+adding login component
+  ng generate component Login
+
   
+
